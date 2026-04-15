@@ -1,0 +1,58 @@
+.sidebar {
+  width: 220px;
+  background-color: #0B1929;
+  border-right: 1px solid #1A3D63;
+  padding: 80px 0 24px 0;
+  min-height: 100vh;
+  flex-shrink: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Individual Nav Button ---------- */
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 14px 24px;
+  border: none;
+  background: transparent;
+  color: #B3CFE5;
+  font-size: 15px;
+  text-align: left;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.navItem:hover {
+  background-color: rgba(42, 90, 138, 0.2);
+  color: #FFFFFF;
+}
+
+/* ---------- Active State ---------- */
+.navItemActive {
+  color: #FFFFFF;
+  border-left-color: #27AE60;
+  background-color: rgba(39, 174, 96, 0.05);
+  font-weight: 600;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  background-color: #1A3D63;
+  border-radius: 6px;
+}
+
+.label {
+  font-size: 15px;
+}
