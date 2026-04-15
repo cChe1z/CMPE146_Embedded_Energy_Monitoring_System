@@ -52,6 +52,9 @@
 
 body {
   margin: 0;
+  background-color: #0A1931;
+  color: white;
+  font-family: system-ui, sans-serif;
 }
 
 #root {

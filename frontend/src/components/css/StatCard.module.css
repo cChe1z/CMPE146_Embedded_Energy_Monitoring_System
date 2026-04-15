@@ -1,0 +1,27 @@
+.card {
+  background-color: #1A3D63;
+  border-radius: 8px;
+  padding: 16px 20px;
+  min-width: 100px;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.label {
+  font-size: 14px;
+  color: #B3CFE5;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
