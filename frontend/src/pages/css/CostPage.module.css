@@ -1,0 +1,168 @@
+/* CostPage.module.css */
+.pagename{
+    background-color: #0e1d2f;
+    flex: 1;
+    padding: 24px 32px;
+    color: white;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.title{
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.dot{
+    color:green;
+    margin-right: 15px;
+}
+
+.freq{ /* Same as header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.decidefreq{
+    display: flex;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.button{
+    background-color: #9facbb;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px 30px;
+    margin-right: 10px;
+}
+
+.selectedbutton{
+    background-color: #4783c8;
+}
+
+.date{
+    background-color: #4783c8;
+    color: white;
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 28px;
+}
+
+.samerow{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #4783c8;
+    border-radius: 15px;
+    margin-right:10px;
+}
+.symbol{
+    color: orange;
+    font-size: 25px;
+}
+
+.label{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.value{
+    color:rgb(30, 70, 55);
+    font-size: 20px;
+}
+
+.middle{
+    display: flex;
+    grid-template-columns: 4fr 1fr;
+    align-items: start;
+    margin-bottom: 28px;
+    gap: 150px;
+}
+.hardwaredetails{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+
+.hardwarecard{
+    display: flex;
+    flex-direction: column;
+    background-color: #4783c8;
+    border-radius: 15px;
+    margin-right:10px;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+.hardwarelabel{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hardwarevalue{
+    color: orange;
+    font-size: 20px;
+}
+
+.warning{
+    color: red;
+    font-size: 10px;
+    background-color: #4783c8;
+    border-radius: 10px;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #4783c8;
+    border-radius: 10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.statusdot{
+    color: green;
+    margin-right: 15px;
+}
+
+.bottomvalue{
+    color:rgb(30, 70, 55);
+}
+
+.chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(71, 94, 71);
+    border-radius: 15px;
+    min-height: 450px;
+    min-width: 550px;
+}
