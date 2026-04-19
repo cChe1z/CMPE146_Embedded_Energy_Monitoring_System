@@ -1,0 +1,65 @@
+/* EnergyUsage.module.css */
+.page{
+    flex: 1;
+    background-color: #0e1d2f;
+    color: white;
+    padding: 24px 32px;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.title{
+    color: white;
+    font-size: 28px;
+    font-family: serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.status{
+    display: flex;
+}
+
+.dot{
+    color: green;
+    margin-right: 10px;
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.decision{
+    display: flex;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.button{
+     background-color: #9facbb;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 20px;
+    margin-right: 5px;
+}
+
+.selectedbutton{
+    background-color: #4783c8;   
+}
+
+.date{
+    background-color: #4783c8;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
